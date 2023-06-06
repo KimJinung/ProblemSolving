@@ -19,7 +19,6 @@ import java.util.*;
 + (n-1, empty, to) *empty -> from -> to 순서로 가므로
 */
 
-import java.util.*;
 
 class Solution {
 
