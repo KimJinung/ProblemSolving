@@ -19,7 +19,7 @@ class Solution {
         }
         return true;
     }
-    
+
     private Set<Integer> getPrimes(int accumulated, int[] numbers, boolean[] isUsed, Set<Integer> primes) {
         if (isPrime(accumulated)) primes.add(accumulated);
 
