@@ -1,3 +1,5 @@
+package Programmers.Lv1.시저암호;
+
 class Solution {
     private char push(char c, int n) {
         if (!Character.isAlphabetic(c)) return c;
