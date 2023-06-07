@@ -1,3 +1,5 @@
+package Programmers.Lv2.행렬의곱셈;
+
 class Solution {
     public int[][] solution(int[][] arr1, int[][] arr2) {
         int[][] arr = new int[arr1.length][arr2[0].length];

@@ -1,3 +1,5 @@
+package Programmers.Lv2.삼각달팽이;
+
 class Solution {
     private static final int[] dx = {0, 1, -1};
     private static final int[] dy = {1, 0, -1};
@@ -30,7 +32,7 @@ class Solution {
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j <= i; j++) {
-                 answer[idx++] = triangle[i][j];
+                answer[idx++] = triangle[i][j];
             }
         }
 

@@ -1,3 +1,5 @@
+package Programmers.Lv2.교점에별만들기;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

@@ -1,3 +1,5 @@
+package Programmers.Lv2.거리두기확인하기;
+
 class Solution {
     private static final int[] dx = {0, -1, 1, 0};
     private static final int[] dy = {-1, 0, 0, 1};
