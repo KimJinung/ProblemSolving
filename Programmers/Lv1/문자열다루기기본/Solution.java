@@ -1,4 +1,4 @@
-package Programmers.Lv1.문자열다루기기본;
+package Lv1.문자열다루기기본;
 
 class Solution {
     public boolean solution(String s) {
