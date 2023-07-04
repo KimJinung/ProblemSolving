@@ -1,4 +1,4 @@
-class Solution {
+class Lv1.이상한문자만들기.Solution {
     public int[] solution(int money) {
         int cupsOfTea = money / 5500;
         int change = money % 5500;

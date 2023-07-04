@@ -1,3 +1,5 @@
+package Lv1.이상한문자만들기;
+
 class Solution {
     public String solution(String s) {
         StringBuilder answer = new StringBuilder();

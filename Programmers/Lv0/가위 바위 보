@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.stream.*;
 
 
-class Solution {
+class Lv1.이상한문자만들기.Solution {
     public String solution(String rsp) {
         return Arrays.stream(rsp.split(""))
                 .map(ch -> ch.equals("2") ? "0" : ch.equals("0") ? "5" : "2")

@@ -1,7 +1,7 @@
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-class Solution {
+class Lv1.이상한문자만들기.Solution {
     public String solution(String cipher, int code) {
         StringBuilder sb = new StringBuilder();
         IntStream.rangeClosed(code, cipher.length())

@@ -1,4 +1,4 @@
-class Solution {
+class Lv1.이상한문자만들기.Solution {
     public String solution(String my_string) {
         return my_string.replaceAll("[aeiou]", "");
     }
