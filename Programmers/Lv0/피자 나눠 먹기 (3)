@@ -1,5 +1,0 @@
-class Lv1.이상한문자만들기.Solution {
-    public int solution(int slice, int n) {
-        return (n % slice) > 0 ? n / slice + 1 : n / slice;
-    }
-}
