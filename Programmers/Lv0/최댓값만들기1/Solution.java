@@ -1,4 +1,4 @@
-package Lv0.최댓값만들기;
+package Lv0.최댓값만들기1;
 
 import java.util.Arrays;
 
