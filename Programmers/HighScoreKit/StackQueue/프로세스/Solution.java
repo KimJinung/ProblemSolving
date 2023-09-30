@@ -32,12 +32,12 @@ class Solution {
 
         pq.addAll(Arrays.stream(priorities).boxed().collect(Collectors.toList()));
         for (int i = 0; i < priorities.length; i++) {
-            boolean target = i == location - 1;
+            boolean target = i == location;
             CustomProcess job = new CustomProcess(priorities[i], target);
             queue.add(job);
         }
 
-        int targetPriority = pq.poll();
+        Integer targetPriority = pq.poll();
 
         while (!queue.isEmpty()) {
             CustomProcess currentJob = queue.poll();
